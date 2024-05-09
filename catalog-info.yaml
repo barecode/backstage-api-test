@@ -6,6 +6,20 @@ metadata:
   annotations:
     github.com/project-slug: barecode/backstage-api-test
 spec:
-  type: other
-  lifecycle: unknown
+  type: openapi
+  lifecycle: production
   owner: guests
+  spec.definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Backstage API Test
+      license:
+        name: MIT
+    servers:
+      - url: http://localhost:8000/
+    paths:
+      /hello_world
+        get:
+          summary: Responds with Hello World
+
