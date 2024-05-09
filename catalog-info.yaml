@@ -22,4 +22,13 @@ spec:
       /hello_world:
         get:
           summary: Responds with Hello World
+          responses:
+            '200':
+              description: |-
+                200 response
+              content:
+                text/plain:
+                  schema:
+                    type: string
+                    example: Hello world
 
