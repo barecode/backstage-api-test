@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: barecode/backstage-api-test
   links:
     - url: https://api-manager.us-east-a.apiconnect.automation.ibm.com/manager/acme-coffee-roasters/
-      title: ACME Coffee Roasters: API Management Portal
+      title: ACME Coffee Roasters API Management Portal
       icon: dashboard
       type: admin-dashboard
 spec:
